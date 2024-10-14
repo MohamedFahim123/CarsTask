@@ -1,0 +1,11 @@
+.swiperSlideImage {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiperSlideImage img {
+    width: 80%;
+    height: 65px;
+    object-fit: contain;
+}

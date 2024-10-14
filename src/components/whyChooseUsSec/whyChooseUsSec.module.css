@@ -1,0 +1,97 @@
+.audiImage {
+    transform: translateX(-20px);
+}
+.whyChooseUs__text {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+}
+.whyChooseUs__list {
+    width: 75%;
+}
+.whyChooseUs__list .imageContainer {
+    padding: 10px 20px 0 0;
+}
+.whyChooseUs__list img {
+    position: relative;
+    z-index: 1;
+    width:65px;
+    height:65px;
+    object-fit: contain;
+}
+.whyChooseUs__list p {
+    color: #6D6D6D;
+}
+.whyChooseUs__list h5 {
+    font-size: 20px;
+}
+.absolutedImage {
+    background-image: url('../../assets/imges/landing-page/sec-5/Vector.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 0;
+    bottom: -10%;
+    height: 120%;
+    width: 110%;
+    z-index: -1;
+}
+.whyChooseUs__list1{
+    margin-top: 40px;
+    width: 75%;
+}
+.whyChooseUs__list1 img {
+    width: 25px;
+    height: 25px;
+    margin-inline-end: 20px;
+}
+.whyChooseUs__list1 p {
+    color: #959595;
+    font-size: 18px;
+}
+.carAnimation {
+    animation-name: scaleToRight;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+}
+@keyframes scaleToRight {
+    0% {
+        transform: translateX(-300px) scale(0.4);
+    }
+    100% {
+        transform: translateX(0) scale(1);
+    }
+}
+@media (max-width: 1024px) {
+    .whyChooseUs__list {
+        width: 100%;
+    }
+    .whyChooseUs__list1 {
+        width: 100%;
+    }
+    .whyChooseUs__text {
+        padding-right: 20px !important;
+    }
+    .whyChooseUs__list li {
+        margin-bottom: 0 !important;
+    }
+}
+@media (max-width: 991px) {
+    .whyChooseUs__text {
+        order: 1 ;
+    }
+    .imageContent{
+        order: 2;
+    }
+}
+@media (max-width: 768px) {
+    .whyChooseUs__list {
+        margin-bottom: 30px;
+    }
+    .whyChooseUs__list p {
+        font-size: 14px;
+    }
+    .whyChooseUs__list h5 {
+        font-size: 16px;
+    }
+}

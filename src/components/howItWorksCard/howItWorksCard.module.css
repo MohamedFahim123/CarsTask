@@ -1,0 +1,39 @@
+.howItWorks__card {
+    padding: 30px;
+    text-align: center;
+}
+.howItWorks__card img {
+    padding: 40px;
+}
+.howItWorks__card h4 {
+    font-size: 20px;
+}
+.howItWorks__card p {
+    font-size: 14px;
+}
+@media (max-width: 1024px) {
+    .howItWorks__card img {
+        padding: 15px;
+        margin-bottom: 10px;
+    }
+    .howItWorks__card h4 {
+        font-size: 16px;
+    }
+    .howItWorks__card p {
+        font-size: 13px;
+    }
+}
+@media (max-width: 768px) {
+    .howItWorks__card img {
+        max-height: 150px;
+        max-width: 150px;
+        /* padding: 50px; */
+    }
+    .howItWorks__card h4 {
+        font-size: 18px;
+    }
+    .howItWorks__card p {
+        padding: 0 30px;
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,87 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] {
+    appearance: textfield;
+}
+.mainBtnStyle {
+    color: var(--main-white);
+    background-color: var(--color-btn);
+    border: none;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+    padding: 8px 12px;
+}
+.singIn__btn {
+    background-color: transparent;
+    color: var(--main-black);
+}
+.singUp__btn:hover {
+    background-color: var(--main-hover-btn);
+}
+.active {
+    color: var(--color-btn) !important;
+}
+.showAllCarsBtn {
+    color: #6c757d;
+    background-color: var(--main-white);
+    border: 1px solid #6c757d;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+    padding: 5px 50px;
+    font-weight: 500;
+}
+.showAllCarsBtn:hover {
+    background-color: #6c757d;
+    color: var(--main-white);
+}
+.mainSection__header{
+    font-size: 35px;
+    color: #333;
+    margin-bottom: 20px;
+}
+.section__handler {
+    padding: 50px 0;
+    overflow: hidden;
+}
+.footerContainer {
+    padding-bottom: 0;
+    background-color: #051C34;
+    color: #ffffff;
+}
+.footerContainer .footerLogo {
+    max-width: 120px;
+}
+.footerIcon {
+    width: 20px;
+    height: 20px;
+}
+.footerUpperPart small {
+    font-size: 13px;
+    color: #D6D6D6;
+}
+.footerBottomPart {
+    border-top: 1px solid #575757;
+    padding: 20px 0;
+    color: #D6D6D6;
+}
+.pageMainLinks {
+    height: 20vh;
+}
+@media (max-width: 1024px) {
+    .mainSection__header {
+        position: relative;
+        z-index: 10;
+        font-size: 28px;
+    }
+}
+@media (max-width: 768px) {
+    .mainSection__header {
+        font-size: 25px;
+        padding-inline-end: 20px;
+    }
+}

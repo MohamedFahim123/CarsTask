@@ -1,0 +1,112 @@
+.swiperSilder {
+cursor: grab;
+}
+.testimonialSec {
+    background-color: #F7FBFF;
+    padding: 100px 0;
+}
+.floated_right {
+    position: absolute;
+    right: 10%;
+    top: 0;
+    width: 250px;
+    height: 200px;
+    z-index: 1;
+    background-image: url('../../assets/imges/landing-page/sec-6/bg-sec6.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.floated_left {
+    position: absolute;
+    right: 70%;
+    top: 20%;
+    width: 250px;
+    height: 200px;
+    transform: rotateY(180deg);
+    z-index: 1;
+    background-image: url('../../assets/imges/landing-page/sec-6/bg-sec6.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.slideFullContent {
+    background-color: #ffffff;
+    display: grid;
+    border-radius: 24px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    height: 350px;
+    box-shadow: 0 12px 24px 0 #104C8B29;
+    grid-template-columns: repeat( 16 , 1fr );
+}
+.testimonialSliderImg {
+    grid-column: span 8;
+    height: 350px;
+}
+.testimonialSliderImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.testimonialSliderText {
+    grid-column: span 8;
+    padding: 30px;
+}
+.testimonialSliderText h4 {
+    font-size: 50px;
+}
+.rateIcons {
+    display: flex;
+    gap: 2px;
+}
+.rateIcons img {
+    width: 24px;
+}
+.testimonialSliderText small {
+    font-size: 20px;
+}
+.testimonialSliderText p {
+    color: #282828;
+    margin-bottom: 30px;
+}
+.testimonialSliderText h6 {
+    font-size: 22px;
+    color: #252525;
+}
+.bottomContent small {
+    font-size: 13px;
+    color: #838383;
+    margin-top: 10px;
+}
+
+@media (max-width: 1024px) {
+    .testimonialSliderText h4 {
+        font-size: 38px;
+    }
+    .testimonialSliderText p {
+        margin-bottom: 10px;
+    }
+    .testimonialSliderText small {
+        font-size: 15px;
+    }
+    .testimonialSliderText h6 {
+        font-size: 16px;
+    }
+    .bottomContent small {
+        font-size: 12px;
+    }
+}
+@media (max-width: 768px) {
+    .testimonialSliderImg {
+        max-height: 250px;
+        grid-column: span 16;
+    }
+    .testimonialSliderText {
+        max-height: 300px;
+        grid-column: span 16;
+    }
+    .slideFullContent {
+        height: 550px;
+    }
+}

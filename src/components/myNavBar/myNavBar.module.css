@@ -1,0 +1,39 @@
+.mainPageLogo img {
+    width: 115px;
+    height: 27px;
+}
+.nav_container {
+    height: 90px;
+    background-color: transparent;
+    position: relative;
+    z-index: 100;
+}
+@media (max-width: 991px) {
+    .nav_container li {
+        padding: 10px 20px;
+    }
+    .navBarNav{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 20px !important;
+    }
+    .navBtns {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .navOffCanvasHead {
+        min-height: 70px;
+    }
+    .mainPageLogo {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

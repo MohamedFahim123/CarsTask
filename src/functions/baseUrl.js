@@ -1,0 +1,1 @@
+export const baseUrl = 'https://myfakeapi.com/api/cars';

@@ -1,0 +1,35 @@
+:root {
+  --color-btn: #0d6efd;
+  --main-hover-btn: #0b5ed7;
+  --main-white: #fff;
+  --main-black: #212529;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  scroll-behavior: smooth;
+  background-color: #ffffff;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: bold;
+}
